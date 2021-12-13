@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css"/>
-    <title>Soniditos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>1212</title>
 </head>
 <body>
-    <audio src="sounds/clap.wav" id="CLAP"></audio>
-    <audio src="sounds/hihat.wav" id="HIHAT"></audio>
-    <audio src="sounds/kick.wav" id="KICK"></audio>
-    <audio src="sounds/openhat.wav" id="OPENHAT"></audio>
-    <audio src="sounds/boom.wav" id="BOOM"></audio>
-    <audio src="sounds/ride.wav" id="RIDE"></audio>
-    <audio src="sounds/snare.wav" id="SNARE"></audio>
-    <audio src="sounds/tom.wav" id="TOM"></audio>
-    <audio src="sounds/tink.wav" id="TINK"></audio>
-
-    <div id="Cuadritos"></div>
-
-    <script src="script.js"></script>
+    <form id="form" class="form">
+        <input name="nombre" type="text" placeholder="nombre">
+        <input name="color" type="color" placeholder="color">
+        <select name="figura">
+            <option value="cuadrado">Cuadrado</option>
+            <option value="circulo">Circulo</option>
+        </select>
+        <button type="submit">Generador</button>
+    </form>
+    <div id="conten" class="conten">.</div>
+    <script src="js/script.js"></script>
 </body>
 </html>
